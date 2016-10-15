@@ -104,8 +104,7 @@ class APIManager {
         let arrayToParse = service.getHelper().prepareArray(json)
         var arrayHelper = [DataHelperProtocol]()
         
-        
-        
+        print("json: \(json)")
         
         if let appArray = arrayToParse {
             

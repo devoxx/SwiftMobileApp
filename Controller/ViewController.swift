@@ -446,11 +446,11 @@ class ViewController: UIViewController, SelectionWheelDatasource, SelectionWheel
     
     
     func fetchEvent() {
-        APIDataManager.loadDataFromURL(CfpService.sharedInstance.getEntryPoint(), service: DayService.sharedInstance, helper : DayHelper(), loadFromFile : true, onSuccess: self.fetchSpeakers, onError: self.failure)
+        APIDataManager.loadDataFromURL(CfpService.sharedInstance.getEntryPoint(), service: DayService.sharedInstance, helper : DayHelper(), loadFromFile : false, onSuccess: self.fetchSpeakers, onError: self.failure)
     }
     
     func fetchSpeakers(msg : CallbackProtocol) {
-        APIDataManager.loadDataFromURL(SpeakerService.sharedInstance.getSpeakerUrl(), service: SpeakerService.sharedInstance, helper : SpeakerHelper(), loadFromFile : true, onSuccess: self.setupEvent, onError: self.failure)
+        APIDataManager.loadDataFromURL(SpeakerService.sharedInstance.getSpeakerUrl(), service: SpeakerService.sharedInstance, helper : SpeakerHelper(), loadFromFile : false, onSuccess: self.setupEvent, onError: self.failure)
     }
     
 
@@ -460,7 +460,7 @@ class ViewController: UIViewController, SelectionWheelDatasource, SelectionWheel
         
         
         if CfpService.sharedInstance.getNbDays() > 0 {
-            APIDataManager.loadDataFromURL(CfpService.sharedInstance.getFileTalkUrl(), service: SlotService.sharedInstance, helper: SlotHelper(), loadFromFile : true, onSuccess: self.fetchTracks, onError: self.failure)
+            APIDataManager.loadDataFromURL(CfpService.sharedInstance.getFileTalkUrl(), service: SlotService.sharedInstance, helper: SlotHelper(), loadFromFile : false, onSuccess: self.fetchTracks, onError: self.failure)
         }
         else {
             run_on_main_thread({
@@ -474,14 +474,14 @@ class ViewController: UIViewController, SelectionWheelDatasource, SelectionWheel
     
     func fetchTracks(msg : CallbackProtocol) {
         //print("========fetchTracks")
-        APIDataManager.loadDataFromURL(AttributeService.sharedInstance.getTracksUrl(), service: TrackService.sharedInstance, helper : TrackHelper(), loadFromFile: true, onSuccess: self.fetchTalkType, onError: failure)
+        APIDataManager.loadDataFromURL(AttributeService.sharedInstance.getTracksUrl(), service: TrackService.sharedInstance, helper : TrackHelper(), loadFromFile: false, onSuccess: self.fetchTalkType, onError: failure)
     }
     
     
     
     func fetchTalkType(msg : CallbackProtocol) {
         //print("========fetchTalkType")
-        APIDataManager.loadDataFromURL(AttributeService.sharedInstance.getTalkTypeUrl(), service: TalkTypeService.sharedInstance, helper : TalkTypeHelper(), loadFromFile: true, onSuccess: self.finishFetching, onError: failure)
+        APIDataManager.loadDataFromURL(AttributeService.sharedInstance.getTalkTypeUrl(), service: TalkTypeService.sharedInstance, helper : TalkTypeHelper(), loadFromFile: false, onSuccess: self.finishFetching, onError: failure)
     }
     
     func finishFetching(msg : CallbackProtocol) {

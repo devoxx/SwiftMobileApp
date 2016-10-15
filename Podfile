@@ -16,10 +16,6 @@ target 'My_DevoxxTests' do
 
 end
 
-target 'Smartvoxx' do
-    
-end
-
 target 'Smartvoxx Extension' do
-    
+    platform :watchos, '2.0'
 end

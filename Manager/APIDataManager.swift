@@ -87,6 +87,7 @@
                 urlToFetch = ""
             }
             
+            print("url: \(urlToFetch)")
            
             let config = NSURLSessionConfiguration.defaultSessionConfiguration()
 
@@ -97,11 +98,7 @@
         
             let task = session.dataTaskWithURL(NSURL(string: urlToFetch)!) {
                 data, response1, error in
-                
-                
-                
-                
-                
+
                 if let _ = error {
                     
                     if loadFromFile {

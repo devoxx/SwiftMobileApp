@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8985D88EA997D39C857767DA /* Pods_My_Devoxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CEF9376C5B292EF5D1A9B0 /* Pods_My_Devoxx.framework */; };
+		07890AA440106F7294862F1A /* Pods_Smartvoxx_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A31E169B557F213A1A3655B /* Pods_Smartvoxx_Extension.framework */; };
+		34D143D560945157DA21B8BD /* Pods_My_DevoxxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A2FDDF64E60D6C7DFAE40E /* Pods_My_DevoxxTests.framework */; };
+		40B8551C8DE27386D7BFC3A3 /* Pods_My_Devoxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0667FA8455B8AF920669074 /* Pods_My_Devoxx.framework */; };
 		B904E26C1CB9B65700330EC0 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B904E26B1CB9B65700330EC0 /* WatchConnectivity.framework */; };
 		B9520A631CB9719C00AF60F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9520A621CB9719C00AF60F3 /* CoreData.framework */; };
 		B95C581D1CB96EF9007BD5A3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95C581B1CB96EF9007BD5A3 /* Interface.storyboard */; };
@@ -322,9 +324,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0FB185179EB1A53D28BD306A /* Pods-My_Devoxx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_Devoxx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My_Devoxx/Pods-My_Devoxx.debug.xcconfig"; sourceTree = "<group>"; };
-		47CEF9376C5B292EF5D1A9B0 /* Pods_My_Devoxx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Devoxx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6174ADBC7F4F4EA4AF5CA638 /* Pods-My_Devoxx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_Devoxx.release.xcconfig"; path = "Pods/Target Support Files/Pods-My_Devoxx/Pods-My_Devoxx.release.xcconfig"; sourceTree = "<group>"; };
+		29A2FDDF64E60D6C7DFAE40E /* Pods_My_DevoxxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_DevoxxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABFDEE3D6B917AB3DD10EF9 /* Pods-My_DevoxxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_DevoxxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My_DevoxxTests/Pods-My_DevoxxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64D8DE621D80BFB92E66FA6C /* Pods-Smartvoxx Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartvoxx Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smartvoxx Extension/Pods-Smartvoxx Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		6B922B26D08BC91B850E1923 /* Pods-My_Devoxx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_Devoxx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My_Devoxx/Pods-My_Devoxx.debug.xcconfig"; sourceTree = "<group>"; };
+		702C1BD39765A52A167842B5 /* Pods-My_Devoxx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_Devoxx.release.xcconfig"; path = "Pods/Target Support Files/Pods-My_Devoxx/Pods-My_Devoxx.release.xcconfig"; sourceTree = "<group>"; };
+		8A31E169B557F213A1A3655B /* Pods_Smartvoxx_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smartvoxx_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01D9E5E4A2853CFA2364794 /* Pods-Smartvoxx Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartvoxx Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smartvoxx Extension/Pods-Smartvoxx Extension.release.xcconfig"; sourceTree = "<group>"; };
+		B0667FA8455B8AF920669074 /* Pods_My_Devoxx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Devoxx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B904E26B1CB9B65700330EC0 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		B9520A621CB9719C00AF60F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		B95C58191CB96EF9007BD5A3 /* Smartvoxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartvoxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -597,14 +604,23 @@
 		E1E9E5231C979BA800EC347D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1E9E5281C979BA800EC347D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F3ECDBE21D69151AF0720F57 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDA4035A3F0C44CCDEBBD56 /* Pods-My_DevoxxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_DevoxxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My_DevoxxTests/Pods-My_DevoxxTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5FE1B26FEACEE7AEE1EE8F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B95C58221CB96EF9007BD5A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B9520A631CB9719C00AF60F3 /* CoreData.framework in Frameworks */,
+				07890AA440106F7294862F1A /* Pods_Smartvoxx_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,7 +631,7 @@
 				B904E26C1CB9B65700330EC0 /* WatchConnectivity.framework in Frameworks */,
 				E1E9E4FD1C97807D00EC347D /* Crashlytics.framework in Frameworks */,
 				E1E9E4FE1C97807D00EC347D /* Fabric.framework in Frameworks */,
-				8985D88EA997D39C857767DA /* Pods_My_Devoxx.framework in Frameworks */,
+				40B8551C8DE27386D7BFC3A3 /* Pods_My_Devoxx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,12 +639,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D143D560945157DA21B8BD /* Pods_My_DevoxxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C661A4C03E22559D60A07DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B922B26D08BC91B850E1923 /* Pods-My_Devoxx.debug.xcconfig */,
+				702C1BD39765A52A167842B5 /* Pods-My_Devoxx.release.xcconfig */,
+				3ABFDEE3D6B917AB3DD10EF9 /* Pods-My_DevoxxTests.debug.xcconfig */,
+				FCDA4035A3F0C44CCDEBBD56 /* Pods-My_DevoxxTests.release.xcconfig */,
+				64D8DE621D80BFB92E66FA6C /* Pods-Smartvoxx Extension.debug.xcconfig */,
+				A01D9E5E4A2853CFA2364794 /* Pods-Smartvoxx Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		580B78881C7A07A100060C00 /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -753,7 +783,9 @@
 				B904E26B1CB9B65700330EC0 /* WatchConnectivity.framework */,
 				B9520A621CB9719C00AF60F3 /* CoreData.framework */,
 				F3ECDBE21D69151AF0720F57 /* Pods.framework */,
-				47CEF9376C5B292EF5D1A9B0 /* Pods_My_Devoxx.framework */,
+				B0667FA8455B8AF920669074 /* Pods_My_Devoxx.framework */,
+				29A2FDDF64E60D6C7DFAE40E /* Pods_My_DevoxxTests.framework */,
+				8A31E169B557F213A1A3655B /* Pods_Smartvoxx_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -834,15 +866,6 @@
 			name = ManagedObjects;
 			sourceTree = "<group>";
 		};
-		C14F5424D9A9A4C738A22A11 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0FB185179EB1A53D28BD306A /* Pods-My_Devoxx.debug.xcconfig */,
-				6174ADBC7F4F4EA4AF5CA638 /* Pods-My_Devoxx.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E10E7AB41C18BF7100F6220B = {
 			isa = PBXGroup;
 			children = (
@@ -865,8 +888,8 @@
 				B95C581A1CB96EF9007BD5A3 /* Smartvoxx */,
 				B95C58291CB96EF9007BD5A3 /* Smartvoxx Extension */,
 				E10E7ABE1C18BF7100F6220B /* Products */,
-				C14F5424D9A9A4C738A22A11 /* Pods */,
 				62ACD2D20B977D6D51F3C490 /* Frameworks */,
+				2C661A4C03E22559D60A07DC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1254,6 +1277,7 @@
 			buildPhases = (
 				B95C58171CB96EF9007BD5A3 /* Resources */,
 				B95C58411CB96EF9007BD5A3 /* Embed App Extensions */,
+				5FE1B26FEACEE7AEE1EE8F53 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1269,9 +1293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B95C58401CB96EF9007BD5A3 /* Build configuration list for PBXNativeTarget "Smartvoxx Extension" */;
 			buildPhases = (
+				CC90A7FDDDF24D538408C130 /* [CP] Check Pods Manifest.lock */,
 				B95C58211CB96EF9007BD5A3 /* Sources */,
 				B95C58221CB96EF9007BD5A3 /* Frameworks */,
 				B95C58231CB96EF9007BD5A3 /* Resources */,
+				835C262A7B79A28BBA95CBC6 /* [CP] Embed Pods Frameworks */,
+				A3D37A51BE42EA5ED1BC3D9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1286,15 +1313,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E10E7ADF1C18BF7100F6220B /* Build configuration list for PBXNativeTarget "My_Devoxx" */;
 			buildPhases = (
-				66A2C4919FD08DBF1851017E /* Check Pods Manifest.lock */,
+				F9E3CDE52F67F8E9FC53D904 /* [CP] Check Pods Manifest.lock */,
 				E10E7AB91C18BF7100F6220B /* Sources */,
 				E10E7ABA1C18BF7100F6220B /* Frameworks */,
 				E10E7ABB1C18BF7100F6220B /* Resources */,
 				E1E9E4F61C977C3D00EC347D /* ShellScript */,
-				111378D7DE6CB3595BD72DFC /* Embed Pods Frameworks */,
-				6C0E30A7E4114E2121ABBEAD /* Copy Pods Resources */,
 				B95C58431CB96EF9007BD5A3 /* Embed Watch Content */,
 				E103FB1E1CBAC924001036FC /* ShellScript */,
+				31B426440E1D177C8565FA42 /* [CP] Embed Pods Frameworks */,
+				566E963B0E0FAF06627A829D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1310,9 +1337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E10E7AE21C18BF7100F6220B /* Build configuration list for PBXNativeTarget "My_DevoxxTests" */;
 			buildPhases = (
+				A43820716741534A02A2213B /* [CP] Check Pods Manifest.lock */,
 				E10E7AD11C18BF7100F6220B /* Sources */,
 				E10E7AD21C18BF7100F6220B /* Frameworks */,
 				E10E7AD31C18BF7100F6220B /* Resources */,
+				8D66C08E181271E1CB83FB01 /* [CP] Embed Pods Frameworks */,
+				78BD3C00BD1077BA65918B83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1530,14 +1560,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		111378D7DE6CB3595BD72DFC /* Embed Pods Frameworks */ = {
+		31B426440E1D177C8565FA42 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1545,14 +1575,89 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My_Devoxx/Pods-My_Devoxx-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66A2C4919FD08DBF1851017E /* Check Pods Manifest.lock */ = {
+		566E963B0E0FAF06627A829D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My_Devoxx/Pods-My_Devoxx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78BD3C00BD1077BA65918B83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My_DevoxxTests/Pods-My_DevoxxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		835C262A7B79A28BBA95CBC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smartvoxx Extension/Pods-Smartvoxx Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D66C08E181271E1CB83FB01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My_DevoxxTests/Pods-My_DevoxxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D37A51BE42EA5ED1BC3D9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smartvoxx Extension/Pods-Smartvoxx Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43820716741534A02A2213B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1560,19 +1665,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6C0E30A7E4114E2121ABBEAD /* Copy Pods Resources */ = {
+		CC90A7FDDDF24D538408C130 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My_Devoxx/Pods-My_Devoxx-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E103FB1E1CBAC924001036FC /* ShellScript */ = {
@@ -1586,7 +1691,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#taken and adapted from https://www.mapbox.com/help/ios-private-access-token/\ntoken_file=huntlyToken.secret\ntoken=\"$(cat $token_file)\"\nif [ \"$token\" ]; then\nplutil -replace HuntlyAccessToken -string $token \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\nelse\necho 'error: Missing Huntly token (should be in huntlyToken.secret)'\nexit 1\nfi\n";
+			shellScript = "#taken and adapted from https://www.mapbox.com/help/ios-private-access-token/\n#token_file=huntlyToken.secret\n#token=\"$(cat $token_file)\"\n#if [ \"$token\" ]; then\n#plutil -replace HuntlyAccessToken -string $token \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\n#else\n#echo 'error: Missing Huntly token (should be in huntlyToken.secret)'\n#exit 1\n#fi\n";
 		};
 		E1E9E4F61C977C3D00EC347D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1600,6 +1705,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./ThirdParty/Fabric.framework/run a6ede11e280e265f7ecbc6e5fc2b2d2e984b73e6 f2b6eee201760230a1aceaa9985a46d1024eb87431422f0bde832b928900f2d5";
+		};
+		F9E3CDE52F67F8E9FC53D904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1873,6 +1993,7 @@
 		};
 		B95C583E1CB96EF9007BD5A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D8DE621D80BFB92E66FA6C /* Pods-Smartvoxx Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1893,6 +2014,7 @@
 		};
 		B95C583F1CB96EF9007BD5A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01D9E5E4A2853CFA2364794 /* Pods-Smartvoxx Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1998,7 +2120,7 @@
 		};
 		E10E7AE01C18BF7100F6220B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB185179EB1A53D28BD306A /* Pods-My_Devoxx.debug.xcconfig */;
+			baseConfigurationReference = 6B922B26D08BC91B850E1923 /* Pods-My_Devoxx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2022,7 +2144,7 @@
 		};
 		E10E7AE11C18BF7100F6220B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6174ADBC7F4F4EA4AF5CA638 /* Pods-My_Devoxx.release.xcconfig */;
+			baseConfigurationReference = 702C1BD39765A52A167842B5 /* Pods-My_Devoxx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2045,6 +2167,7 @@
 		};
 		E10E7AE31C18BF7100F6220B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABFDEE3D6B917AB3DD10EF9 /* Pods-My_DevoxxTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2065,6 +2188,7 @@
 		};
 		E10E7AE41C18BF7100F6220B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCDA4035A3F0C44CCDEBBD56 /* Pods-My_DevoxxTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

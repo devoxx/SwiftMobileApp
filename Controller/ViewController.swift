@@ -446,6 +446,8 @@ class ViewController: UIViewController, SelectionWheelDatasource, SelectionWheel
     
     
     func fetchEvent() {
+        print(CfpService.sharedInstance.getEntryPoint())
+        
         APIDataManager.loadDataFromURL(CfpService.sharedInstance.getEntryPoint(), service: DayService.sharedInstance, helper : DayHelper(), loadFromFile : true, onSuccess: self.fetchSpeakers, onError: self.failure)
     }
     

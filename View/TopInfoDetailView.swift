@@ -65,8 +65,8 @@ class TopInfoDetailView : UIView {
         let innerViews = ["firstInfo": firstInfo, "secondInfo" : secondInfo]
         
         
-        let constH11 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[firstInfo]-0-|", options: .AlignAllBaseline, metrics: nil, views: innerViews)
-        let constH12 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[secondInfo]-0-|", options: .AlignAllBaseline, metrics: nil, views: innerViews)
+        let constH11 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[firstInfo]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: innerViews)
+        let constH12 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[secondInfo]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: innerViews)
         let constV11 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[firstInfo]-0-[secondInfo]-0-|", options: .AlignAllCenterX, metrics: nil, views: innerViews)
         
         

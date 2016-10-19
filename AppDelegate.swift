@@ -116,6 +116,19 @@ extension AppDelegate: WCSessionDelegate {
         }
     }
     
+    func session(session: WCSession, activationDidCompleteWithState activationState: WCSessionActivationState, error: NSError?) {
+        print("to do")
+    }
+    
+    func sessionDidBecomeInactive(session: WCSession) {
+        print("to do")
+    }
+    
+    func sessionDidDeactivate(session: WCSession) {
+        print("to do")
+    }
+
+    
     func updateFavoriteStatus(favorite:Bool, forTalkWithId talkId:String, inConferenceWithId conferenceId:String) {
         if let session = session {
             let message = ["favorite":["value":favorite, "talkId":talkId, "conferenceId":conferenceId]]

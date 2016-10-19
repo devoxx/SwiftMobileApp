@@ -64,7 +64,7 @@ class SelectionWheel: UIView {
         
         for shape in layers {
             
-            if CGPathContainsPoint(shape.path, nil, point, false) {
+            if CGPathContainsPoint(shape.path!, nil, point, false) {
                 click(i)
                 return
             }

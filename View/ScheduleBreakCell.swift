@@ -31,7 +31,7 @@ class ScheduleBreakCell : UITableViewCell {
         let views = ["leftIconView": leftIconView, "rightTextView" : rightTextView]
         
         
-        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[leftIconView(50)]-0-[rightTextView]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[leftIconView(50)]-0-[rightTextView]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         
         
         addConstraints(constH0)

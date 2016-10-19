@@ -36,6 +36,10 @@ extension ExtensionDelegate:WCSessionDelegate {
         }
     }
     
+    func session(session: WCSession, activationDidCompleteWithState activationState: WCSessionActivationState, error: NSError?) {
+        print("OK")
+    }
+    
     func session(session: WCSession, didReceiveMessage message: [String : AnyObject], replyHandler: ([String : AnyObject]) -> Void) {
         processMessage(message)
     }

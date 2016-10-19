@@ -53,7 +53,7 @@ class StarView : UITableViewCell {
         
         
         
-        let constH = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[star0]-0-[star1(==star0)]-0-[star2(==star0)]-0-[star3(==star0)]-0-[star4]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[star0]-0-[star1(==star0)]-0-[star2(==star0)]-0-[star3(==star0)]-0-[star4]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         
         let constV0 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[star0]-0-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)
         let constV1 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[star1]-0-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)

@@ -372,9 +372,8 @@ class DevoxxCache: NSObject {
                         track = result
                     }
                 } else {
-                    var error: NSError?
                     request.predicate = nil
-                    let count = context.countForFetchRequest(request, error: &error)
+                    let count = try context.countForFetchRequest(request)
                     
                     track = NSEntityDescription.insertNewObjectForEntityForName("Track", inManagedObjectContext: context) as? Track
                     track?.name = name

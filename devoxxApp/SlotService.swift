@@ -33,7 +33,7 @@ class SlotService : AbstractService {
     
     
     
-    func fetchCfpDay(completionHandler: (slots: NSArray, error: SlotStoreError?) -> Void) {
+    func fetchCfpDay(completionHandler: (_ : NSArray, error: SlotStoreError?) -> Void) {
         privateManagedObjectContext.performBlock {
             do {
                 
@@ -48,11 +48,11 @@ class SlotService : AbstractService {
                 let results = try self.privateManagedObjectContext.executeFetchRequest(fetchRequest)
                 
                 dispatch_async(dispatch_get_main_queue(), {
-                    completionHandler(slots: results, error: nil)
+                    completionHandler(results, error: nil)
                 })
             } catch {
                 dispatch_async(dispatch_get_main_queue(), {
-                    completionHandler(slots: [], error: SlotStoreError.CannotFetch("Cannot fetch slots days"))
+                    completionHandler([], error: SlotStoreError.CannotFetch("Cannot fetch slots days"))
                 })
                 
             }
@@ -66,7 +66,7 @@ class SlotService : AbstractService {
     
     
     
-    override func updateWithHelper(helper : [DataHelperProtocol], completionHandler : (msg: CallbackProtocol) -> Void) {
+    override func updateWithHelper(helper : [DataHelperProtocol], completionHandler : (_: CallbackProtocol) -> Void) {
         
         
         let cfp = self.privateManagedObjectContext.objectWithID(CfpService.sharedInstance.getCfp()) as! Cfp

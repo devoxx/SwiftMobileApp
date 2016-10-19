@@ -76,7 +76,7 @@ class GobalDetailView : UIView {
         */
         
         
-        let constH = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[left]-0-[right]-10-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[left]-0-[right]-10-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         let constV0 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[left]-0-|", options: .AlignAllCenterX, metrics: nil, views: views)
         let constV1 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[right]-0-|", options: .AlignAllCenterX, metrics: nil, views: views)
         

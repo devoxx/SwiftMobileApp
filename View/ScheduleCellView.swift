@@ -23,7 +23,7 @@ class ScheduleCellView: UITableViewCell {
         let views = ["leftIconView": leftIconView, "rightTextView" : rightTextView]
         
         
-        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[leftIconView(50)]-0-[rightTextView]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[leftIconView(50)]-0-[rightTextView]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         
         let constV0 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[leftIconView]-0-|", options: .AlignAllCenterX, metrics: nil, views: views)
         

@@ -32,7 +32,7 @@ class RateView : UITableViewCell {
         let views = ["label": label, "review" : review]
         
         
-        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-10-[label(150)]-10-[review]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-10-[label(150)]-10-[review]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         
         let constV0 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[label]-0-|", options: .AlignAllCenterX, metrics: nil, views: views)
         

@@ -57,6 +57,20 @@
 		E11BB7CB1D135F7A00D38332 /* DevoxxPL2016-conferences.json in Resources */ = {isa = PBXBuildFile; fileRef = E11BB7CA1D135F7A00D38332 /* DevoxxPL2016-conferences.json */; };
 		E11BB7CD1D135F8A00D38332 /* DevoxxPL2016-proposalTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = E11BB7CC1D135F8A00D38332 /* DevoxxPL2016-proposalTypes.json */; };
 		E11BB7CF1D1363BF00D38332 /* splash_btn_DevoxxPL2015@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E11BB7CE1D1363BF00D38332 /* splash_btn_DevoxxPL2015@2x.png */; };
+		E14B8B5F1DB8282E008B572C /* splash_btn_DV16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B5E1DB8282E008B572C /* splash_btn_DV16@2x.png */; };
+		E14B8B611DB82853008B572C /* splash_btn_DevoxxMA2016@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B601DB82853008B572C /* splash_btn_DevoxxMA2016@2x.png */; };
+		E14B8B641DB82890008B572C /* DV16-conferences.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B631DB82890008B572C /* DV16-conferences.json */; };
+		E14B8B661DB828AC008B572C /* DV16-proposalTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B651DB828AC008B572C /* DV16-proposalTypes.json */; };
+		E14B8B681DB828C8008B572C /* DV16-speakers.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B671DB828C8008B572C /* DV16-speakers.json */; };
+		E14B8B6A1DB828D6008B572C /* DV16-tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B691DB828D6008B572C /* DV16-tracks.json */; };
+		E14B8B6C1DB828E6008B572C /* DV16-talks.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B6B1DB828E6008B572C /* DV16-talks.json */; };
+		E14B8B6F1DB833FA008B572C /* DevoxxMA2016-conferences.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B6E1DB833FA008B572C /* DevoxxMA2016-conferences.json */; };
+		E14B8B711DB8340E008B572C /* DevoxxMA2016-proposalTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B701DB8340E008B572C /* DevoxxMA2016-proposalTypes.json */; };
+		E14B8B731DB8341D008B572C /* DevoxxMA2016-speakers.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B721DB8341D008B572C /* DevoxxMA2016-speakers.json */; };
+		E14B8B751DB8342F008B572C /* DevoxxMA2016-tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B741DB8342F008B572C /* DevoxxMA2016-tracks.json */; };
+		E14B8B771DB83439008B572C /* DevoxxMA2016-talks.json in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B761DB83439008B572C /* DevoxxMA2016-talks.json */; };
+		E14B8B791DB83789008B572C /* splash_btn_DevoxxUS2017@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B781DB83789008B572C /* splash_btn_DevoxxUS2017@2x.png */; };
+		E14B8B7B1DB837CC008B572C /* DevoxxUSHomePage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E14B8B7A1DB837CC008B572C /* DevoxxUSHomePage.jpg */; };
 		E14E94B31C980971006B6D8E /* HelperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14E94B21C980971006B6D8E /* HelperManager.swift */; };
 		E15D04131CB1A016003301C8 /* DevoxxHuntlyIntegrationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E15D040D1CB1A016003301C8 /* DevoxxHuntlyIntegrationIcon.png */; };
 		E15D04141CB1A016003301C8 /* DevoxxHuntlyIntegrationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E15D040E1CB1A016003301C8 /* DevoxxHuntlyIntegrationIcon@2x.png */; };
@@ -381,6 +395,20 @@
 		E11BB7CA1D135F7A00D38332 /* DevoxxPL2016-conferences.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DevoxxPL2016-conferences.json"; sourceTree = "<group>"; };
 		E11BB7CC1D135F8A00D38332 /* DevoxxPL2016-proposalTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DevoxxPL2016-proposalTypes.json"; sourceTree = "<group>"; };
 		E11BB7CE1D1363BF00D38332 /* splash_btn_DevoxxPL2015@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_btn_DevoxxPL2015@2x.png"; sourceTree = "<group>"; };
+		E14B8B5E1DB8282E008B572C /* splash_btn_DV16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_btn_DV16@2x.png"; sourceTree = "<group>"; };
+		E14B8B601DB82853008B572C /* splash_btn_DevoxxMA2016@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_btn_DevoxxMA2016@2x.png"; sourceTree = "<group>"; };
+		E14B8B631DB82890008B572C /* DV16-conferences.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DV16-conferences.json"; sourceTree = "<group>"; };
+		E14B8B651DB828AC008B572C /* DV16-proposalTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DV16-proposalTypes.json"; sourceTree = "<group>"; };
+		E14B8B671DB828C8008B572C /* DV16-speakers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DV16-speakers.json"; sourceTree = "<group>"; };
+		E14B8B691DB828D6008B572C /* DV16-tracks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DV16-tracks.json"; sourceTree = "<group>"; };
+		E14B8B6B1DB828E6008B572C /* DV16-talks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DV16-talks.json"; sourceTree = "<group>"; };
+		E14B8B6E1DB833FA008B572C /* DevoxxMA2016-conferences.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DevoxxMA2016-conferences.json"; sourceTree = "<group>"; };
+		E14B8B701DB8340E008B572C /* DevoxxMA2016-proposalTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DevoxxMA2016-proposalTypes.json"; sourceTree = "<group>"; };
+		E14B8B721DB8341D008B572C /* DevoxxMA2016-speakers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DevoxxMA2016-speakers.json"; sourceTree = "<group>"; };
+		E14B8B741DB8342F008B572C /* DevoxxMA2016-tracks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DevoxxMA2016-tracks.json"; sourceTree = "<group>"; };
+		E14B8B761DB83439008B572C /* DevoxxMA2016-talks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "DevoxxMA2016-talks.json"; sourceTree = "<group>"; };
+		E14B8B781DB83789008B572C /* splash_btn_DevoxxUS2017@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_btn_DevoxxUS2017@2x.png"; sourceTree = "<group>"; };
+		E14B8B7A1DB837CC008B572C /* DevoxxUSHomePage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DevoxxUSHomePage.jpg; sourceTree = "<group>"; };
 		E14E94B21C980971006B6D8E /* HelperManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperManager.swift; sourceTree = "<group>"; };
 		E15D040D1CB1A016003301C8 /* DevoxxHuntlyIntegrationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DevoxxHuntlyIntegrationIcon.png; sourceTree = "<group>"; };
 		E15D040E1CB1A016003301C8 /* DevoxxHuntlyIntegrationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DevoxxHuntlyIntegrationIcon@2x.png"; sourceTree = "<group>"; };
@@ -713,7 +741,10 @@
 		587797461C82067F00A1A7D5 /* Wheel */ = {
 			isa = PBXGroup;
 			children = (
+				E14B8B781DB83789008B572C /* splash_btn_DevoxxUS2017@2x.png */,
+				E14B8B5E1DB8282E008B572C /* splash_btn_DV16@2x.png */,
 				E175E7E51C963E1F002A262A /* globe.png */,
+				E14B8B601DB82853008B572C /* splash_btn_DevoxxMA2016@2x.png */,
 				E175E7E61C963E1F002A262A /* splash_btn_DevoxxFR2016@2x.png */,
 				E11BB7CE1D1363BF00D38332 /* splash_btn_DevoxxPL2015@2x.png */,
 				E175E7E71C963E1F002A262A /* splash_btn_DevoxxMA2015@2x.png */,
@@ -727,6 +758,7 @@
 		587797471C8206A800A1A7D5 /* Background */ = {
 			isa = PBXGroup;
 			children = (
+				E14B8B7A1DB837CC008B572C /* DevoxxUSHomePage.jpg */,
 				E175E7F11C963E29002A262A /* DevoxxBelgiumHomePage.jpg */,
 				E175E7F21C963E29002A262A /* DevoxxFranceHomePage.jpg */,
 				E175E7F31C963E29002A262A /* DevoxxMoroccoHomePage.jpg */,
@@ -932,6 +964,30 @@
 			name = PL2016;
 			sourceTree = "<group>";
 		};
+		E14B8B621DB82872008B572C /* DV16 */ = {
+			isa = PBXGroup;
+			children = (
+				E14B8B631DB82890008B572C /* DV16-conferences.json */,
+				E14B8B651DB828AC008B572C /* DV16-proposalTypes.json */,
+				E14B8B671DB828C8008B572C /* DV16-speakers.json */,
+				E14B8B691DB828D6008B572C /* DV16-tracks.json */,
+				E14B8B6B1DB828E6008B572C /* DV16-talks.json */,
+			);
+			name = DV16;
+			sourceTree = "<group>";
+		};
+		E14B8B6D1DB833E6008B572C /* DevoxxMA2016 */ = {
+			isa = PBXGroup;
+			children = (
+				E14B8B6E1DB833FA008B572C /* DevoxxMA2016-conferences.json */,
+				E14B8B701DB8340E008B572C /* DevoxxMA2016-proposalTypes.json */,
+				E14B8B721DB8341D008B572C /* DevoxxMA2016-speakers.json */,
+				E14B8B741DB8342F008B572C /* DevoxxMA2016-tracks.json */,
+				E14B8B761DB83439008B572C /* DevoxxMA2016-talks.json */,
+			);
+			name = DevoxxMA2016;
+			sourceTree = "<group>";
+		};
 		E15D040C1CB1A000003301C8 /* Huntly */ = {
 			isa = PBXGroup;
 			children = (
@@ -1125,6 +1181,8 @@
 		E175F2741C49B18E00D7AC0A /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				E14B8B6D1DB833E6008B572C /* DevoxxMA2016 */,
+				E14B8B621DB82872008B572C /* DV16 */,
 				E11BB7C31D135F2800D38332 /* PL2016 */,
 				E15D04271CB730FD003301C8 /* DevoxxUK2016 */,
 				E175E8891C963EA6002A262A /* Cfp.json */,
@@ -1332,20 +1390,23 @@
 			attributes = {
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = maximedavid;
 				TargetAttributes = {
 					B95C58181CB96EF9007BD5A3 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 7F9RT8TS76;
+						LastSwiftMigration = 0800;
 					};
 					B95C58241CB96EF9007BD5A3 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 7F9RT8TS76;
+						LastSwiftMigration = 0800;
 					};
 					E10E7ABC1C18BF7100F6220B = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = 7F9RT8TS76;
+						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -1354,7 +1415,7 @@
 					};
 					E10E7AD41C18BF7100F6220B = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = E10E7ABC1C18BF7100F6220B;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -1407,9 +1468,11 @@
 				E175E8D41C964172002A262A /* Roboto-Regular.ttf in Resources */,
 				E11BB7CF1D1363BF00D38332 /* splash_btn_DevoxxPL2015@2x.png in Resources */,
 				E175E8231C963E4F002A262A /* icon_archisec.png in Resources */,
+				E14B8B6C1DB828E6008B572C /* DV16-talks.json in Resources */,
 				E15D04201CB1AD5E003301C8 /* tickets@3x.png in Resources */,
 				E175E8001C963E32002A262A /* checkboxOn.png in Resources */,
 				E175E7FF1C963E32002A262A /* checkboxOff.png in Resources */,
+				E14B8B611DB82853008B572C /* splash_btn_DevoxxMA2016@2x.png in Resources */,
 				E175E8341C963E5C002A262A /* tabIconMap@2x.png in Resources */,
 				E15D042F1CB732F3003301C8 /* DevoxxUK2016-conferences.json in Resources */,
 				E175E8371C963E5C002A262A /* tabIconSpeaker@2x.png in Resources */,
@@ -1421,6 +1484,7 @@
 				E1863EEC1CBB04FC00EA5DDA /* icon_bd.png in Resources */,
 				E175E8221C963E4F002A262A /* icon_agTest.png in Resources */,
 				E1863EED1CBB04FC00EA5DDA /* icon_cld.png in Resources */,
+				E14B8B711DB8340E008B572C /* DevoxxMA2016-proposalTypes.json in Resources */,
 				E175E8531C963E67002A262A /* ic_time@2x.png in Resources */,
 				E11BB7CB1D135F7A00D38332 /* DevoxxPL2016-conferences.json in Resources */,
 				E175E8241C963E4F002A262A /* icon_bigd.png in Resources */,
@@ -1436,6 +1500,7 @@
 				E175E82D1C963E4F002A262A /* icon_startup.png in Resources */,
 				E1C9E1681CB16B1900796D02 /* Huntly.storyboard in Resources */,
 				E1E9E5271C979BA800EC347D /* Localizable.strings in Resources */,
+				E14B8B641DB82890008B572C /* DV16-conferences.json in Resources */,
 				E175E7FC1C963E29002A262A /* talk_background.png in Resources */,
 				E10E7AD01C18BF7100F6220B /* LaunchScreen.xib in Resources */,
 				E175E7E31C963E17002A262A /* devoxx.svg.png in Resources */,
@@ -1444,6 +1509,7 @@
 				E175E8361C963E5C002A262A /* tabIconSettings@2x.png in Resources */,
 				E175E8551C963E67002A262A /* location@2x.png in Resources */,
 				E175E7EF1C963E1F002A262A /* splash_btn_DevoxxUK2016@2x.png in Resources */,
+				E14B8B7B1DB837CC008B572C /* DevoxxUSHomePage.jpg in Resources */,
 				E175E8491C963E67002A262A /* cofeeCup.png in Resources */,
 				E175E8601C963E7B002A262A /* devoxxCinameFloorTablet.jpg in Resources */,
 				E175E7F71C963E29002A262A /* DevoxxBelgiumHomePage.jpg in Resources */,
@@ -1452,6 +1518,7 @@
 				E175E8271C963E4F002A262A /* icon_future.png in Resources */,
 				E175E8251C963E4F002A262A /* icon_cldops.png in Resources */,
 				E175E8711C963E91002A262A /* DV15-proposalTypes.json in Resources */,
+				E14B8B5F1DB8282E008B572C /* splash_btn_DV16@2x.png in Resources */,
 				E10E7ACD1C18BF7100F6220B /* Images.xcassets in Resources */,
 				E11BB7C71D135F6400D38332 /* DevoxxPL2016-talks.json in Resources */,
 				E175E7F81C963E29002A262A /* DevoxxFranceHomePage.jpg in Resources */,
@@ -1468,8 +1535,10 @@
 				E17050E01CA560F700818E79 /* ic_wine@2x.png in Resources */,
 				E17050DF1CA560F700818E79 /* ic_beer@2x.png in Resources */,
 				E175E8801C963E9B002A262A /* DevoxxFR2016-conferences.json in Resources */,
+				E14B8B751DB8342F008B572C /* DevoxxMA2016-tracks.json in Resources */,
 				E175E7EC1C963E1F002A262A /* splash_btn_DevoxxFR2016@2x.png in Resources */,
 				E15D04161CB1A016003301C8 /* LogoDevoxxHuntly@1x.png in Resources */,
+				E14B8B6F1DB833FA008B572C /* DevoxxMA2016-conferences.json in Resources */,
 				E15D04171CB1A016003301C8 /* LogoDevoxxHuntly@2x.png in Resources */,
 				E175E84E1C963E67002A262A /* ic_filter_inactive@2x.png in Resources */,
 				E175E8611C963E7B002A262A /* devoxxExhibitionFloorPhone.jpg in Resources */,
@@ -1479,6 +1548,7 @@
 				E175E8101C963E3E002A262A /* icon_other.png in Resources */,
 				E175E8841C963E9B002A262A /* DevoxxFR2016-speaker.json in Resources */,
 				E15D04131CB1A016003301C8 /* DevoxxHuntlyIntegrationIcon.png in Resources */,
+				E14B8B731DB8341D008B572C /* DevoxxMA2016-speakers.json in Resources */,
 				E175E7E41C963E17002A262A /* logo.png in Resources */,
 				E175E80C1C963E3E002A262A /* icon_conf.png in Resources */,
 				E175E88C1C963EA6002A262A /* StoredResource.json in Resources */,
@@ -1486,6 +1556,8 @@
 				E175E8571C963E67002A262A /* star@2x.png in Resources */,
 				E175E8131C963E3E002A262A /* icon_tia.png in Resources */,
 				E175E8111C963E3E002A262A /* icon_quick.png in Resources */,
+				E14B8B771DB83439008B572C /* DevoxxMA2016-talks.json in Resources */,
+				E14B8B681DB828C8008B572C /* DV16-speakers.json in Resources */,
 				E175E8501C963E67002A262A /* ic_place@2x.png in Resources */,
 				E15D04341CB732F3003301C8 /* DevoxxUK2016-tracks.json in Resources */,
 				E15D04311CB732F3003301C8 /* DevoxxUK2016-proposalTypes.json in Resources */,
@@ -1509,11 +1581,14 @@
 				E175E8541C963E67002A262A /* ic_twitter@2x.png in Resources */,
 				E175E8381C963E5C002A262A /* tabIconTracks@2x.png in Resources */,
 				E15D041E1CB1AD59003301C8 /* tickets@2x.png in Resources */,
+				E14B8B6A1DB828D6008B572C /* DV16-tracks.json in Resources */,
 				E175E8351C963E5C002A262A /* tabIconSchedule@2x.png in Resources */,
 				E175E7F01C963E1F002A262A /* splash_btn_DV15@2x.png in Resources */,
 				E175E8281C963E4F002A262A /* icon_java.png in Resources */,
 				E175E84D1C963E67002A262A /* ic_filter_active@2x.png in Resources */,
 				E175E88B1C963EA6002A262A /* Cfp.json in Resources */,
+				E14B8B791DB83789008B572C /* splash_btn_DevoxxUS2017@2x.png in Resources */,
+				E14B8B661DB828AC008B572C /* DV16-proposalTypes.json in Resources */,
 				E175E8861C963E9B002A262A /* DEVOXXFR2016-tracks.json in Resources */,
 				E175E8631C963E7B002A262A /* DevoxxFRExhibitionPhone.jpg in Resources */,
 			);
@@ -1831,13 +1906,13 @@
 		B95C583C1CB96EF9007BD5A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Smartvoxx_Extension;
 				INFOPLIST_FILE = Smartvoxx/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devoxx.mydevoxx.swift.watchkitapp;
@@ -1845,6 +1920,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -1853,12 +1929,12 @@
 		B95C583D1CB96EF9007BD5A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Smartvoxx_Extension;
 				INFOPLIST_FILE = Smartvoxx/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devoxx.mydevoxx.swift.watchkitapp;
@@ -1866,6 +1942,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -1886,6 +1963,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -1905,6 +1983,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -1914,6 +1993,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1923,8 +2003,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1961,6 +2043,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1970,8 +2053,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Java Community BVBA (7F9RT8TS76)";
@@ -1991,6 +2076,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "3e0c3b1d-4a3e-4f62-bbdc-f984c5bbf521";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2000,6 +2086,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FB185179EB1A53D28BD306A /* Pods-My_Devoxx.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -2011,11 +2098,13 @@
 					"$(PROJECT_DIR)/devoxxApp",
 				);
 				INFOPLIST_FILE = devoxxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devoxx.mydevoxx.swift;
 				PRODUCT_NAME = "My Devoxx";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2024,6 +2113,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6174ADBC7F4F4EA4AF5CA638 /* Pods-My_Devoxx.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -2035,10 +2125,12 @@
 					"$(PROJECT_DIR)/devoxxApp",
 				);
 				INFOPLIST_FILE = devoxxApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devoxx.mydevoxx.swift;
 				PRODUCT_NAME = "My Devoxx";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2046,7 +2138,6 @@
 		E10E7AE31C18BF7100F6220B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -2059,14 +2150,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "maximedavid.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = My_DevoxxTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My_Devoxx.app/My_Devoxx";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		E10E7AE41C18BF7100F6220B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -2075,7 +2165,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "maximedavid.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = My_DevoxxTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My_Devoxx.app/My_Devoxx";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

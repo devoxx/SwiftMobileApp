@@ -97,9 +97,9 @@ class AllDetailsView : UIView {
         
         
         
-        let constH1 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[simpleDetailView1]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
-        let constH2 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[simpleDetailView2]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
-        let constH3 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[simpleDetailView3]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH1 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[simpleDetailView1]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
+        let constH2 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[simpleDetailView2]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
+        let constH3 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[simpleDetailView3]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         
         let constV = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[simpleDetailView1]-0-[simpleDetailView2]-0-[simpleDetailView3]-0-|", options: .AlignAllCenterX, metrics: nil, views: views)
         

@@ -127,10 +127,15 @@ class CfpService : AbstractService {
                 fetchRequest.returnsObjectsAsFaults = false
                 fetchRequest.sortDescriptors = [NSSortDescriptor(key: "id", ascending: true)]
                 //@TODO quick fix
-                fetchRequest.predicate = NSPredicate(format: "id != %@", "DevoxxPL2015")
+                let pred1 = NSPredicate(format: "id != %@", "DevoxxPL2015")
+                let pred2 = NSPredicate(format: "id != %@", "DevoxxMA2015")
+                let pred3 = NSPredicate(format: "id != %@", "DV15")
                 
+                fetchRequest.predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [pred1, pred2, pred3])
                 
                 let results = try self.privateManagedObjectContext.executeFetchRequest(fetchRequest) as! [Cfp]
+                
+                                
                 
                 dispatch_async(dispatch_get_main_queue(), {
                     completionHandler(cfps: results, error: nil)

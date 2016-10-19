@@ -61,11 +61,11 @@ class RightTextView : UIView {
         
         
         
-        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[topTitleView]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
-        let constH1 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[locationView]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
-        let constH2 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[speakerView]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
-        let constH3 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[sepView0]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
-        let constH4 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[sepView1]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[topTitleView]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
+        let constH1 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[locationView]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
+        let constH2 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[speakerView]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
+        let constH3 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[sepView0]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
+        let constH4 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[sepView1]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         
         let constV0 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[sepView0]-0-[topTitleView]-0-[locationView]-0-[speakerView]-0-[sepView1]-0-|", options: .AlignAllCenterX, metrics: nil, views: views)
         

@@ -43,8 +43,8 @@ class TopTitleView : UIView {
         let views = ["talkTitle": talkTitle, "talkTrackName" : talkTrackName]
         
         
-        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[talkTitle]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
-        let constH1 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[talkTrackName]-0-|", options: .AlignAllBaseline, metrics: nil, views: views)
+        let constH0 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[talkTitle]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
+        let constH1 = NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[talkTrackName]-0-|", options: .AlignAllLastBaseline, metrics: nil, views: views)
         
         let constV0 = NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[talkTrackName]-0-[talkTitle]-0-|", options: .AlignAllCenterX, metrics: nil, views: views)
         

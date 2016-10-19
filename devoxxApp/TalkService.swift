@@ -30,19 +30,19 @@ class TalkService : AbstractService {
         super.init()
     }
     
-    func fetchTalksByDate(currentDate : NSDate, searchPredicates : [String : [NSPredicate]]?, completionHandler: (talks: NSFetchedResultsController?, error: TalksStoreError?) -> Void) {
+    func fetchTalksByDate(currentDate : NSDate, searchPredicates : [String : [NSPredicate]]?, completionHandler: (_: NSFetchedResultsController?, error: TalksStoreError?) -> Void) {
        
         fetchTalks(currentDate, searchPredicates : searchPredicates, sortByDate : true, completionHandler : completionHandler)
     }
     
-    func fetchTalksByTrackId(currentTrack : NSManagedObjectID, completionHandler: (talks: NSFetchedResultsController?, error: TalksStoreError?) -> Void) {
+    func fetchTalksByTrackId(currentTrack : NSManagedObjectID, completionHandler: (_: NSFetchedResultsController?, error: TalksStoreError?) -> Void) {
         
         let attribute = self.privateManagedObjectContext.objectWithID(currentTrack) as! Attribute
         
         fetchTalks(attribute.label!, searchPredicates : nil, sortByDate : false, completionHandler : completionHandler)
     }
     
-    func fetchTalks<T>(criterion : T, searchPredicates : [String : [NSPredicate]]?, sortByDate : Bool, completionHandler: (talks: NSFetchedResultsController?, error: TalksStoreError?) -> Void) {
+    func fetchTalks<T>(criterion : T, searchPredicates : [String : [NSPredicate]]?, sortByDate : Bool, completionHandler: (_: NSFetchedResultsController?, error: TalksStoreError?) -> Void) {
         privateManagedObjectContext.performBlock {
             do {
                 let fetchRequest = NSFetchRequest(entityName: "Talk")
@@ -77,11 +77,11 @@ class TalkService : AbstractService {
                 
                 try frc.performFetch()
                 dispatch_async(dispatch_get_main_queue(), {
-                    completionHandler(talks: frc, error: nil)
+                    completionHandler(frc, error: nil)
                 })
             } catch {
                 dispatch_async(dispatch_get_main_queue(), {
-                    completionHandler(talks: nil, error: TalksStoreError.CannotFetch("Cannot fetch talks"))
+                    completionHandler(nil, error: TalksStoreError.CannotFetch("Cannot fetch talks"))
                 })
                
             }
@@ -89,7 +89,7 @@ class TalkService : AbstractService {
     }
     
     
-    func setFavoriteStatus(fav:Bool, forTalkWithId talkId:String, completion : (msg: CallbackProtocol) -> Void) {
+    func setFavoriteStatus(fav:Bool, forTalkWithId talkId:String, completion : (_: CallbackProtocol) -> Void) {
         privateManagedObjectContext.performBlock {
             do {
                 
@@ -112,7 +112,7 @@ class TalkService : AbstractService {
 
     }
     
-    func fetchTalks(ids : [NSManagedObjectID], completionHandler: (talks: [DataHelperProtocol], error: TalksStoreError?) -> Void) {
+    func fetchTalks(ids : [NSManagedObjectID], completionHandler: (_: [DataHelperProtocol], error: TalksStoreError?) -> Void) {
         privateManagedObjectContext.performBlock {
             
         
@@ -129,7 +129,7 @@ class TalkService : AbstractService {
             }
             
             dispatch_async(dispatch_get_main_queue(), {
-                completionHandler(talks: talksArray, error: nil)
+                completionHandler(talksArray, error: nil)
             })
         
         
